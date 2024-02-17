@@ -1,0 +1,99 @@
+.order-food-from-container-large{
+    display: none;
+}
+@media screen and (min-width: 750px) {
+    .order-food-from-container-large{
+        display: block;
+    }
+}
+@media screen and (min-width: 750px) {
+    .order-food-from-container-small{
+        display: none;
+    }
+}
+.order-food-from-container-small{
+    margin-bottom: 40px;
+}
+div.carousel-indicators{
+    margin-bottom: 0px;
+}
+.food-from-card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.food-from-card{
+    background-image: url('../../../imgSrc/menuBg/orderFoodCardSmall.jpg');
+    background-size: 85% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: calc(var(--fullWidth) * 0.8);
+    border-radius: 0px;
+    
+}   
+
+.food-from-heading1{
+    color: white;
+    padding-top: calc(var(--fullWidth) * 0.06);
+    margin-bottom: 0;
+    font-size: calc(var(--fullWidth) * 0.08);
+    text-align: center;
+}
+.food-from-heading2{
+    color: rgb(190, 190, 30);
+    font-family: roboto;
+    font-size: calc(var(--fullWidth) * 0.07);
+    font-weight: 700;
+    padding-top: 0;
+    text-align: center;
+    margin: 0;
+}
+.lunch-box-small{
+    margin-top: calc(var(--fullWidth) * 0.06);
+    margin-bottom: calc(var(--fullWidth) * 0.03);
+    height: calc(var(--fullWidth) * 0.35);
+    width: calc(var(--fullWidth) * 0.4);
+    border-radius: 30px;
+}
+.order-from-btn{
+    height: 35px;
+    width: 100px;
+    border-width: 0;
+    background-color: #0C2A50;
+    border-radius: 20px;
+    color: white;
+    font-weight: 500;
+}
+:root {
+    --fullWidth: 100vw; /* Set a custom property for half of the viewport width */
+  }
+
+.order-food-from-heading{
+    color: #0C2A50;
+    font-size: 20px; 
+    font-family: playfair display;
+    font-weight: 700;
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 0px;
+}
+.order-from-bg-container{
+    background-image: url('../../../imgSrc/menuBg/FoodBannerLarger3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90% 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;    
+    display: flex;
+    justify-content: space-between;
+    padding: calc(var(--fullWidth) * 0.23);
+    padding-top: calc(var(--fullWidth) * 0.1);
+}
+.lunch-box{
+    height: calc(var(--fullWidth) * 0.16);
+    width: calc(var(--fullWidth) * 0.16);
+    border-radius: calc(var(--fullWidth) * 0.01);
+}

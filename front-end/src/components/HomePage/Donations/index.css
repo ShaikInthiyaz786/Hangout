@@ -1,0 +1,35 @@
+.donations-container{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.donation-heading{
+    font-size: 25px;
+    font-family: playfair display;
+    color: #0C2A50;
+    font-weight: 700;
+}
+.donation1{
+    width: 85vw;
+    height: 50vh;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+@media screen and (min-width: 750px) {
+    .donation1{
+        display: none;
+    }
+}
+.donation2{
+    display: none;
+}
+@media screen and (min-width: 750px) {
+    .donation2{
+        display: block;
+        width: 90vw;
+        height: 50vh;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    }
+}

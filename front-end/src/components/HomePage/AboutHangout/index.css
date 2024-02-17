@@ -1,0 +1,114 @@
+.about-hangout-container{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-width: 750px){
+    .about-hangout-container{
+        height: 40vh;
+        flex-direction: row;
+    }
+}
+
+.motherLove{
+    background-image: url('../../../imgSrc/homepage/motherLove.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: calc(var(--fullWidth) * 0.5);
+    width: calc(var(--fullWidth) * 0.8);
+    padding: 0px;
+    border-radius: 0px;
+    margin-right: 0px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+@media screen and (min-width: 750px){
+    .motherLove{
+        height: 40vh;
+        width: 50vw;
+        border-radius: 15px;
+        margin: 20px;
+        margin-left: calc(var(--fullWidth) * 0.03);;
+        margin-right: 0;
+    }
+}
+.contact-container{
+    background-color: #0C2A50;
+    height: 10px;
+    width: 20px;
+    border-radius: 1px;
+    color: white;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.discription-container{
+    background: linear-gradient(to bottom, #D3EDEC, #E0E1DC);
+    height: 50vh;
+    margin: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-width: 750px){
+    .discription-container{
+        height: 30vh;
+        width: 50vw;
+        background: linear-gradient(to bottom, #fff, #fff);
+        background-color: #fff;
+    }
+}
+.discription-text{
+    width: 90%;
+    padding: 10px;
+}
+.we-provide-heading{
+    color: #0C2A50;
+    font-size: 20px;
+    width: 70vw;
+    font-family: playfair display;
+    font-weight: 700;
+}
+@media screen and (min-width: 750px){
+    .we-provide-heading{
+        width: 75%;
+        font-size: calc(var(--fullWidth) * 0.028);
+    }
+}
+
+.about-hangout-discription{
+    font-size: 13px;
+    font-family: DM san;
+}
+@media screen and (min-width: 750px){
+    .about-hangout-discription{
+        font-size: calc(var(--fullWidth) * 0.012);
+    }
+}
+.more-about-us-btn-container{
+    display: flex;
+    justify-content: flex-end;
+}
+.more-about-us-btn{
+    background-color: #0C2A50;
+    font-size: 12px;
+    color: #fff;
+    height: 32px;
+    width: 100px;
+    border-radius: 20px;
+    border-width: 0;
+    font-family: roboto;
+    font-weight: 400;
+}
+@media screen and (min-width: 750px){
+    .more-about-us-btn{
+        font-size: calc(var(--fullWidth) * 0.01);
+        height: calc(var(--fullWidth) * 0.035);
+        width: calc(var(--fullWidth) * 0.1);
+    }
+}

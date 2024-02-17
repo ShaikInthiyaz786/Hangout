@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+.header{
+    height: calc(var(--fullWidth) * 0.1);
+    padding-left: calc(var(--fullWidth) * 0.03);
+    padding-right: calc(var(--fullWidth) * 0.03);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media screen and (min-width: 750px){
+    .header{
+        display: none; 
+    }
+}
+
+.logo-location-container{
+    display: flex;
+    flex-direction: column;
+}
+.loaction-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-name-container{
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+}
+.mobile-header-logo{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-right: 5px;
+}
+.company-name{
+    font-size: 25px;
+    color: #0C2A50;
+    font-family: "Teko";
+    margin-bottom: 0;
+}
+.login-nofication-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-btn{
+    color: white;
+    font-family: "roboto";
+    margin-bottom: 0;
+    background-color: #0C2A50;
+    width: 70px;
+    height: 25px;
+    font-size: 9px;
+    border-radius: 20px;
+    border-width: 0;
+    font-weight: 700;
+}
+.bell-icon{
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+

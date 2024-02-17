@@ -1,0 +1,162 @@
+.food-delivery-container{
+    background-color: #D9D9D9;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width: 750px){
+    .food-delivery-container{
+        background-color: #fff;
+        flex-direction: row;
+        align-items: center;
+    }
+}
+.food-delivery-img-container{
+    order: 1;
+    width: 100%;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (min-width: 750px){
+    .food-delivery-img-container{
+        order: 0;
+        width: 50vw;
+        height: 70vh;
+        display: flex;
+        align-items: center;
+    }
+}
+.food-delivery-img{
+    height: 55vh;
+    width: 80%;
+    border-radius: 25px;
+}
+@media screen and (min-width: 750px){
+    .food-delivery-img{
+        width: 45vw;
+        height: 60vh;
+    }
+}
+
+.contact-container{
+    background-color: #0C2A50;
+    height: 150px;
+    width: 0px;
+}
+.food-discription-container{
+    height: 70vh;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-width: 750px){
+    .food-discription-container{
+        background: linear-gradient(to bottom, #fff, #fff);
+        background-color: #fff;
+        width: 50vw;
+    }
+}
+.food-delivery-discription-text{
+    background-color: #D9D9D9;
+    width: 80vw;
+    padding-left: calc(var(--fullWidth) * 0.09); 
+    padding-top: calc(var(--fullWidth) * 0.09); 
+}
+@media screen and (min-width: 750px){
+    .food-delivery-discription-text{
+        width: 50vw;
+        padding-left: calc(var(--fullWidth) * 0.09); 
+        padding-top: calc(var(--fullWidth) * 0.09); 
+    }
+}
+@media screen and (min-width: 750px){
+    .discription-container{
+        width: 50vw;
+    }
+}
+.food-delivery-heading-container{
+    order: 0;
+    padding-left: calc(var(--fullWidth) * 0.09); 
+    padding-top: calc(var(--fullWidth) * 0.09); 
+}
+@media screen and (min-width: 750px){
+    .food-delivery-heading-container{
+        display: none;
+    }
+}
+.food-delivery-heading{
+    font-size: 30px;
+    width: 60vw;
+    font-family: playfair display;
+    font-weight: 700;
+    color: #0C2A50;
+}
+
+.food-delivery-order-btn{
+    background-color: #0C2A50;
+    font-size: 14px;
+    color: #fff;
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    border-width: 0;
+    font-family: roboto;
+    font-weight: 400;
+}
+.delivery-icon-container{
+    display: flex;
+}
+.delivery-icon{
+    background-color: #AD343E;
+    color: white;
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.hangout-sevices-container{
+    order: 2;
+    padding: 55px;
+}
+@media screen and (min-width: 750px){
+    .hangout-sevices-container{
+        display: none;
+    }
+}
+@media screen and (min-width: 750px){
+    .hangout-sevices-container-large{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+.food-delivery-text-container-large{
+    display: none;
+}
+
+@media screen and (min-width: 750px){
+    .food-delivery-text-container-large{
+        display: block;
+        width: 40vw;
+    }
+    .food-delivery-heading-container-large{
+        width: 30vw;
+        padding: 30px;
+    }
+    .food-delivery-heading-large{
+        font-size: 30px;
+        width: 40vw;
+        font-family: playfair display;
+        font-weight: 700;
+        color: #0C2A50;
+    }
+}

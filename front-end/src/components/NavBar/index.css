@@ -1,0 +1,69 @@
+@media screen and (max-width: 749px){
+    .main-container{
+        display: none;
+    }
+}
+.nav-bar{
+    height: calc(var(--fullWidth) * 0.05);
+    position: fixed; /* Make the navbar sticky */
+    top: 0; /* Stick it to the top of the viewport */
+    width: 100%;
+    z-index: 1000; /* Ensure it stays above other content */
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo{
+    height: calc(var(--fullWidth) * 0.03);
+    width: calc(var(--fullWidth) * 0.03);
+    margin-right: 5px;
+    border-radius: calc(var(--fullWidth) * 0.03);
+}
+.nav-company-name{
+    font-size: calc(var(--fullWidth) * 0.025);
+    font-family: 'Teko';
+    margin: 0;
+}
+.nav-elements-container{
+    height: calc(var(--fullWidth) * 0.05);
+    width: 100vw;
+    padding-right: calc(var(--fullWidth) * 0.05);
+    padding-left: calc(var(--fullWidth) * 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo-container{
+    display: flex;
+    align-items: center;
+}
+.nav-btn-container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.nav-btn{
+    color: #0C2A50;
+    background-color: #ffffff;
+    font-size: calc(var(--fullWidth) * 0.008);
+    font-family: "roboto";
+    margin-right: 5px;
+    width: calc(var(--fullWidth) * 0.05);
+    height: calc(var(--fullWidth) * 0.02);
+    border-radius: 0;
+    border-width: 0;
+    font-weight: 700;
+}
+.nav-btn-highlight{
+    background-color: #0C2A50;
+    color: white;
+    border-radius: 20px;
+    border-width: 0;
+}
+.nav-login-btn{
+    width: calc(var(--fullWidth) * 0.055);
+    height: calc(var(--fullWidth) * 0.02);
+    font-size: calc(var(--fullWidth) * 0.0078);
+}

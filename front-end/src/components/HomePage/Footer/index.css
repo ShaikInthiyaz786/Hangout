@@ -1,0 +1,97 @@
+.footer-container{
+    display: none;
+}
+@media screen and (min-width: 750px) {
+    .footer-container{
+        background-color: #0C2A50;
+        padding: 30px;
+        height: 60vh;  
+        display: flex;  
+    }
+}
+
+.footer-left-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 50vh;
+    width: 30vw;
+}
+.footer-logo-container{
+    display: flex;
+    align-items: center;
+}
+.footer-logo{
+    height:50px;
+    width: 50px;
+}
+.footer-company-name{
+    font-size: 25px;
+    color: white;
+    font-family: teko;
+    margin: 0;
+}
+.footer-social-media-icons-container{
+    display: flex;
+    justify-content: space-between;
+    width: 12vw;
+    margin-left: 20px;
+}
+.footer-social-media-icon{
+    height: 35px;
+    width: 35px;
+    color: white;
+    background-color: #AD343E;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hangout-count{
+    width: 15vw;
+    height: 35vh;
+    border: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.count{
+    color: white;
+    font-size: 15px;
+    font-family: roboto;
+}
+hr{
+    color: white;
+}
+.footer-middile-container{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.footer-middle-heading{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.footer-right-container{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer-right-heading{
+    color: white;
+    font-size: 20px;
+}
+.footer-img{
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+}
